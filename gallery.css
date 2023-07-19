@@ -1,0 +1,29 @@
+.items{
+	display:  inline-block;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 30px 20px;
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+	margin-left: 70px;
+
+}	
+.items img{
+	width: 500px;
+	height: 500px;
+	object-fit: cover;
+	cursor: pointer;
+	transition: 0.2s ease;
+	
+}
+
+.items img:hover{
+	transform: scale(1.04);
+}
+
+.items h4{
+	padding: 5px;
+	margin-left: 180px;
+	text-transform: uppercase;
+	position: center;
+
+}
